@@ -12,9 +12,9 @@
 
 ##  Git Bash :gem:
 
-- git innit: iniciar o git em um repositório
+- git init: iniciar o git em um repositório
 - git add: adicionar arquivo (staged)
-- git commit -m: "commitar", empurrar o arquivo para o repositório remoto
+- git commit -m "...": "commitar", empurrar o arquivo para o repositório remoto
 - ctrl + l: limpar o prompt
 - ls -a: mostrar arquivos e pastas ocultos
 - git status: self explanatory

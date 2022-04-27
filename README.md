@@ -6,3 +6,7 @@ Repositório criado para o desafio de Projeto sobre Git/GitHub
 
 [Comandos Básicos GitBash](https://dev.classmethod.jp/articles/git-bash-commands/)
 
+[JQuery](https://jquery.com/)
+
+[W3 Schools Tutoriais Online](https://www.w3schools.com/)
+
