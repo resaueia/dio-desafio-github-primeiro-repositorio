@@ -1,5 +1,7 @@
 ## HTML5 :man_technologist:
 
+*Lembrar que trata-se de linguagem de **MARCAÇÃO** e não de **PROGRAMAÇÃO**!
+
 Definição e estrutura básica
 Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou a base da web.
 
@@ -11,18 +13,18 @@ Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho e forma 
 
 E agora podemos ver como é a estrutura básica de um arquivo HTML.
 
-A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
+A primeira linha do documento deve ser o !DOCTYPE html, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
 
-"<html>"
+html *lembrando que esse comandos irão aparecer entre <>
 
 A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, para o português brasileiro usamos pt-BR.
 
-"<head>"
+head
 
 
 A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script, o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título da página com a tag title.
 
-"<body>"
+body
 
 E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
 
@@ -47,10 +49,10 @@ Representa um conteúdo independente e de maior relevância dentro de uma págin
 É uma seção que engloba conteúdos relacionados ao conteúdo principal, como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.
 
 
-Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é aceito dentro de vários elementos, como article e section e até do body. Exemplos de conteúdo de um <footer> são informações de autor e links relacionados.
+Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é aceito dentro de vários elementos, como article e section e até do body. Exemplos de conteúdo de um footer são informações de autor e links relacionados.
 
 
-Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo <h1> o mais importante e <h6> o menos. Uma dica: use apenas um <h1> por página, pois ele representa o objetivo da sua página.
+Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo h1 o mais importante e h6 o menos. Uma dica: use apenas um h1 por página, pois ele representa o objetivo da sua página.
 
 ## Textos e links :link:
 
@@ -58,9 +60,9 @@ A criação do HTML foi motivada pela necessidade de compartilhar textos e docum
 
 Já falamos anteriormente sobre os elementos h1-h6 e, eles são essenciais para nos indicar visualmente a importância e localização de seções de texto na página, mas para textos maiores e mais densos usamos o elemento p.
 
-O "<p>" representa um parágrafo, mas ele não suporta apenas texto, podemos adicionar imagens, código, vídeos e vários outros tipos de conteúdo dentro dele.
+O p representa um parágrafo, mas ele não suporta apenas texto, podemos adicionar imagens, código, vídeos e vários outros tipos de conteúdo dentro dele.
 
-Um outro elemento interessante e extremamente necessário na web é o "<a>" - que significa anchor/âncora, ele representa um hyperlink, é ele que interliga vários conteúdos e páginas na web.
+Um outro elemento interessante e extremamente necessário na web é o a - que significa anchor/âncora, ele representa um hyperlink, é ele que interliga vários conteúdos e páginas na web.
 
 O elemento a tem vários atributos, mas vamos focar em dois, o href e o target.
 
@@ -70,7 +72,7 @@ O target neste momento vai servir para nos ajudar a abrir nossos links em outra 
 
 ## Imagens :framed_picture:
 
-A web também é feita de imagens e para representá-las temos o elemento <img>, ele é um daqueles elementos sem tag de fechamento.
+A web também é feita de imagens e para representá-las temos o elemento img, ele é um daqueles elementos sem tag de fechamento.
 
 O elemento img é bem simples, contendo apenas 2 atributos próprios, o src e o alt.
 
@@ -80,13 +82,13 @@ O alt não é obrigatório mas é altamente recomendado por melhorar a acessibil
 
 ## Listas :fleur_de_lis:
 
-Os últimos elementos que veremos neste módulo são os relacionados a listas: ''<ul>, <ol> e <li>".
+Os últimos elementos que veremos neste módulo são os relacionados a listas: ''ul, ol e li".
 
 Listas servem para agrupar uma coleção de itens, como uma lista de ingredientes ou, como será no nosso caso, uma lista com contatos.
 
 O elemento ul cria uma lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados.
 
-O "<ol>" serve para criar lista ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras.
+O ol serve para criar lista ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras.
 
-E o elemento li é um item dentro de uma dessas listas. Um "<li>" pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
+E o elemento li é um item dentro de uma dessas listas. Um li pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
 
