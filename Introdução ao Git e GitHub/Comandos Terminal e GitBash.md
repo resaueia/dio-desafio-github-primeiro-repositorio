@@ -23,3 +23,5 @@
 - git pull: puxar arquivos do repositório remoto para o local
 - git push origin master/main: empurrar arquivos para o repositório remoto
 
+PS: não esquecer de, primeira e manualmente, criar um repositório no próprio github para linkar com o repositório local através do git remote add!
+
